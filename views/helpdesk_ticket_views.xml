@@ -30,7 +30,7 @@
     </record>
 
     <record id="helpdesk_ticket_view_tree" model="ir.ui.view">
-        <field name="name">helpdesk.ticket.view.tree</field>
+        <field name="name">Helpdesk Ticket View Tree</field>
         <field name="model">helpdesk.ticket</field>
         <field name="arch" type="xml">
             <tree string="HelpDesk Tickets">
@@ -40,6 +40,7 @@
             </tree>
         </field>
     </record>
+
 
     <record id="helpdesk_ticket_view_search" model="ir.ui.view">
         <field name="name">helpdesk.ticket.view.search</field>

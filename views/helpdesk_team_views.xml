@@ -26,7 +26,7 @@
             </field>
         </record>
 
-        <record id="helpdesk_team_view_tree" model="ir.ui.view">
+        <!-- <record id="helpdesk_team_view_tree" model="ir.ui.view">
             <field name="name">helpdesk_team_view_tree</field>
             <field name="model">helpdesk.team</field>
             <field name="arch" type="xml">
@@ -35,7 +35,7 @@
                     <field name="ticket_ids" optional="hide" widget="many2one_tags"/>
                 </tree>
             </field>
-        </record>
+        </record> -->
 
     </data>
 </odoo>
